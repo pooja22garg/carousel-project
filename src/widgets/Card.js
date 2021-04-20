@@ -2,7 +2,6 @@ import './Card.css';
 
 import React, {useMemo, useState} from 'react';
 
-//it will hold only x number of items
 const Card = (props) => {
     const {imageUrl="", name="", price="", category="", classname=""} = props;
 

@@ -58,3 +58,5 @@ export const Products = [
   ]
 export const DEFAULT_CATEGORY = 'All';
 export const ALL='All';
+export const NO_PRODUCTS_PER_SLIDE=3;
+export const INDEX_OF_CARD_TO_ZOOM=2;

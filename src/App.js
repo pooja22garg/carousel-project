@@ -1,6 +1,6 @@
 import  './App.css';
 
-import {ALL, DEFAULT_CATEGORY, Products} from './input';
+import {ALL, DEFAULT_CATEGORY, INDEX_OF_CARD_TO_ZOOM, NO_PRODUCTS_PER_SLIDE, Products} from './input';
 import {useMemo, useState} from 'react';
 
 import CarouselSlider from './widgets/CarouselSlider';
@@ -46,7 +46,7 @@ function App() {
         </select>
       </div>
       <div>
-          <CarouselSlider allItems={itemsToDisplay} noOfElementsPerSlide={3} indexToZoom={2}></CarouselSlider>
+          <CarouselSlider allItems={itemsToDisplay} noOfElementsPerSlide={NO_PRODUCTS_PER_SLIDE} indexToZoom={INDEX_OF_CARD_TO_ZOOM}></CarouselSlider>
       </div>
       
     </div>
