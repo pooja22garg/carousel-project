@@ -1,0 +1,15 @@
+.CardItem {
+    min-width: 300px;
+    height: 400px;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.CardItem__ProductImage {
+    margin: 1px, 1px;
+    min-height: 300px;
+    height: 300px;
+    width: 250px;
+}
+.CardItem__Details {
+    white-space: normal;
+}
